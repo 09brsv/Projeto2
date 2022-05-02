@@ -1,0 +1,239 @@
+*{
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slick-dotted ul {
+	text-align: center;
+    margin-top: 20px;
+}
+.slick-dotted li {
+	display: inline-block;
+	margin: 0 7px;
+}
+
+.slick-dotted button:focus{
+	outline: 0;
+}
+.slick-dotted li button{
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+	color: #d8d8d8;
+	border-width: 0;
+	background-color: #d8d8d8;
+	cursor: pointer;
+}
+li.slick-active button{
+	background: #688293;
+	color: #688293;
+}
+.slick-slide:focus{outline: none;}
+header{
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    height: 11vh;
+    width: 100%;
+    padding: 10px 0;
+    background-color: rgb(228, 228, 228);
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -10px #0a0a0a;
+}
+header .logo{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+header .logo img{
+    height: 80%;
+    margin: 10px auto;
+}
+header .logo img:hover, header button:hover{
+    cursor: pointer;
+    background-color:rgb(170, 159, 159);
+    padding: 2px;
+}
+header .search{
+    width: 40%;
+    max-width: 350px;
+    margin-left: 70%;
+    margin-top: -40px;
+}
+header .search input[type="text"]{
+    width: 50%;
+    line-height: 20px;
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid;
+    padding: 2px;
+    background:none;
+}
+header button{
+    background:none;
+    border: 0;
+    font-size:15px
+}
+main{
+    width: 100%;
+    max-width: 1300px;
+    margin: 50px auto;
+    padding: 100px 8%;
+}
+main .slide{
+    display: flex;
+    width: 100%;
+}
+main .carrossel{
+    max-width:500px
+}
+main .caixa-slide{
+    position: relative;
+    height: 480px;
+    width: 100%;
+    max-width: 750px;
+    background-position: center;
+    border: 1px solid #ccc;
+}
+main .caixa-slide h2{
+    color: white;
+    font-weight: 980;
+    text-decoration: underline;
+    width: 400px;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+main .slide li{
+    list-style: none;
+}
+.slide .news li:not(:first-of-type){
+    margin-top: 10px;
+    margin-left: 2%;
+    padding: 0 12px;
+    border-left:3px solid red;
+    line-height: 1.2;
+}
+.slide li img{
+    width:150px;
+    margin-left:30px;
+    margin-bottom:25px;
+}
+.slide ul hr{
+    margin-top:15px;
+    margin-left: 12px;
+}
+main .middle{
+    display:flex;
+    margin: 20px auto;
+    width: 100%;
+    padding: 10px 0;
+}
+.middle img{
+    height:250px;
+    width:100%;
+    max-width: 500px
+}
+.middle .item1, main .middle .item2{
+    padding: 10px;
+    
+}
+.middle .container1 h3, .container2 h3, .container3 h3{
+    color: #54a07d;
+    font-weight: 900;
+    margin-top: 5px;
+    font-size: 22px;
+}
+.middle .item1{
+    margin:50px 0;
+}
+.middle hr{
+    width: 50px;
+    margin: 5% 2%;
+}
+.middle .container2 .item1{
+    padding-top: 0;
+    margin-top: 30px;
+   
+}
+.container2 h4{
+    display:inline-block;
+}
+.container2 img.bubu{
+    width: 100px;
+    height:50px
+}
+main .iframes{
+    background-color:rgb(226, 226, 226);
+    padding:30px 15px;
+    width:115%;
+    margin-left:-8%
+}
+main .iframes h2{
+    margin: 0 0 20px 15px;
+    font-size: 18px;
+    font-weight: 980;
+}
+main .iframes .box-iframe{
+    display: flex;
+}
+.iframes .box-iframe .box1{
+    width:50%;
+    margin-right: 10px;
+}
+.iframes .box-iframe .box2, .iframes .box-iframe .box3{
+   width: 25%;
+}
+.box2{
+    margin-right: 5px;
+}
+.iframes .box-iframe div #box{
+    height:315px;
+    width:100%;
+}
+.box2 iframe, .box3 iframe{
+    width:100%
+}
+footer {
+    display:flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content:center;
+    height:10vh;
+    
+    background-color:#ccc;
+}
+footer h3{
+    color: gray;
+}
+footer h4{
+  align-self: flex-end;
+}
+footer ion-icon{
+    margin: 0 10px;
+    color: white;
+    background-color: black;
+    padding: 7px;
+    border-radius:50%;
+}
+footer ion-icon:hover{
+    cursor: pointer;
+    padding:9px;
+}
+
+@media screen and (max-width: 900px){
+    main .slide, main .caixa-slide ul, main .middle,  main .iframes .box-iframe{
+        display: inline-block;
+    }
+    main .iframes .box-iframe .box1, .box2, .box3{
+        width: 100% !important;
+        margin: 40px 0;
+    }
+    iframe
+    {
+        height: 315px;
+    }
+}
