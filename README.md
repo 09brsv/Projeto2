@@ -1,11 +1,11 @@
-# Réplica da página do Instituto Butantan
+# Réplica da página do Instituto Butantan 🩺💉
 
   
 <br>
 Página que foi feita do zero usando somente um modelo de comparação estética visual com a página oficial do Butantan.
 <br><br>
 
-## Aprendizados
+## Aprendizados 💡💡
 <br>
 
 * Fixar o cabeçalho no início do página.
@@ -15,7 +15,7 @@ Página que foi feita do zero usando somente um modelo de comparação estética
 
 <br>
 
-## Desenvolvimento
+## Desenvolvimento 📝
 <br>
 
 - [ ] Configurar o motor de pesquisa.
@@ -24,7 +24,13 @@ Página que foi feita do zero usando somente um modelo de comparação estética
 
 <br>
 
-## Acesso
+## Acesso ⬇⬇
 <br>
 
 > [Link para a página aqui](https://replica-butantan.vercel.app/)
+
+<br>
+
+## Contato 📝
+
+>Para dúvidas, críticas ou sugestões, me envie um [Email](mailto:brunoornelio@hotmail.com).
